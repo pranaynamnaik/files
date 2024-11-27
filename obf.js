@@ -5,24 +5,24 @@ const option = {
 const blacklist = {
 	// Basic
 	upperCase: true,
-	lowerCase: true,
-	number: false,
+	lowerCase: false,
+	number: true,
 
 	// Special
 	space: false,
-	dollar: false,          // $
+	dollar: true,          // $
 	percent: false,         // %
 	asterisk: false,        // *
-	underscore: false,      // _
+	underscore: true,      // _
 	equals: false,          // =
 	singleQuotes: false,    // '
 	doubleQuotes: false,    // "
-	backtick: false,        // `
-	dot: false,             // .
+	backtick: true,        // `
+	dot: true,             // .
 	slash: false,           // /
-	backslash: false,       // \
+	backslash: true,       // \
 	curlyBrackets: false,   // { or }
-	angleBrackets: false    // < or >
+	angleBrackets: true    // < or >
 };
 
 // Memoization
